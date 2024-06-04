@@ -427,7 +427,7 @@ scene.background = new THREE.Color('black');
 
 {
   const objLoader = new OBJLoader();
-  objLoader.load('assets/starship.fbx', (root) => {
+  objLoader.load('assets/starship.obj', (root) => {
     bunny = root;
     scene.add(root);
   });
